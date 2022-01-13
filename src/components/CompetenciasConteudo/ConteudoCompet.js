@@ -30,7 +30,15 @@ function ConteudoCompet() {
 <div class="mx-10 pt-15">
    <div class="grid gap-6 mb-8 md:grid-cols-2">
               
-   <CardConteudo fundo="bg-black" titulo="teste" conteudo="teste"/>    
+   <CardConteudo titulo="Agilidade!" conteudo="
+   É muito além de executar bem as tarefas, seguir protocolos e entregar resultados de forma afobada. 
+   Penso que com agilidade é favorecer o crescimento como um todo de maneira rápida e eficiente.
+   "/>    
+   <CardConteudo titulo="Flexibilidade" conteudo="
+     É a minha habilidade que tenho de 
+     aguentar aos mais diferentes cenários, interagindo com ele e
+     e me adaptar a novas realidades.
+   "/>    
               
             </div>
 </div>
