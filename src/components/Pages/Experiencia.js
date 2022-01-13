@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
 import ConteudoInicial from '../ConteudoInicial';
 import Footer from '../Footer';
 function Experiencia(){
+    useEffect(() => {
+      
+        document.title = "Maurício 🔥 | Experiência";
+      });
+
     return(
         <React.Fragment>
             

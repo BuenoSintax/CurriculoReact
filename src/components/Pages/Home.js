@@ -1,114 +1,69 @@
 import React, { useState, useEffect } from 'react'
-import logoReact from '../assets/logoreact.png';
+import euae from '../assets/euae.jpeg';
+import ConteudoInicial from '../ConteudoInicial';
 function Home() {
+  useEffect(() => {
+      
+    document.title = "Maurício 🔥 | Home";
+  });
 
 
 
   return (
 
-    <div>
+    <React.Fragment>
+      
 
-
-
-
-
-      <section class="relative pt-16">
-        <div class="container mx-auto">
-          <div class="flex flex-wrap items-center">
-            <div class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
-              <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-indigo-500">
-                <img alt="..." src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=700&amp;q=80" class="w-full align-middle rounded-t-lg"></img>
-                <blockquote class="relative p-8 mb-4">
-
-                  <h4 class="text-xl font-bold text-white">
-                    Maurício de Oliveira Monteiro Lopes Bueno
-                  </h4>
-                  <p class="text-md font-light mt-2 text-white">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages presentation
-                    to login areas, you can easily customise and built your pages.
-                  </p>
-                </blockquote>
-              </div>
-            </div>
-
-            <div class="w-full md:w-6/12 px-4">
-              <div class="flex flex-wrap">
-                <div class="w-full md:w-6/12 px-4">
-                  <div class="relative flex flex-col mt-4 bg-indigo-300 rounded-lg">
-                    <div class="px-4 py-5 flex-auto">
-
-
-                      <img src={logoReact} class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 pointer-events-none h-16 mb-5 shadow-lg rounded-full" alt="Simples Ideias"></img>
-
-                      <h6 class="text-xl mb-1 font-semibold text-indigo-700">CSS Components</h6>
-                      <p class="mb-4 text-blueGray-500">
-                        Notus JS comes with a huge number of Fully Coded CSS
-                        components.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="relative flex flex-col min-w-0">
-                    <div class="px-4 py-5 flex-auto">
-                      <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i class="fas fa-drafting-compass"></i>
-                      </div>
-                      <h6 class="text-xl mb-1 font-semibold">
-                        JavaScript Components
-                      </h6>
-                      <p class="mb-4 text-blueGray-500">
-                        We also feature many dynamic components for React, NextJS,
-                        Vue and Angular.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-full md:w-6/12 px-4">
-                  <div class="relative flex flex-col min-w-0 mt-4">
-                    <div class="px-4 py-5 flex-auto">
-                      <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i class="fas fa-newspaper"></i>
-                      </div>
-                      <h6 class="text-xl mb-1 font-semibold">Pages</h6>
-                      <p class="mb-4 text-blueGray-500">
-                        This extension also comes with 3 sample pages. They are
-                        fully coded so you can start working instantly.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="relative flex flex-col min-w-0">
-                    <div class="px-4 py-5 flex-auto">
-                      <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i class="fas fa-file-alt"></i>
-                      </div>
-                      <h6 class="text-xl mb-1 font-semibold">Documentation</h6>
-                      <p class="mb-4 text-blueGray-500">
-                        Built by developers for developers. You will love how easy
-                        is to to work with Notus JS.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <section class="text-gray-400 bg-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"></img>
+      
+    <div class="max-w-2xl px-8 py-4 mx-auto bg-white rounded-lg shadow-md dark:bg-gray-800">
+    <div class="flex items-center justify-between">
+            <span class="text-sm font-light text-gray-600 dark:text-gray-400">Jan 11, 2022</span>
+            
         </div>
-        <footer class="relative bg-blueGray-50 pt-8 pb-6 mt-2">
-          <div class="container mx-auto px-4">
-            <div class="flex flex-wrap items-center md:justify-between justify-center">
 
+        <div class="mt-2">
+            <a href="#" class="text-2xl font-bold text-gray-700 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 hover:underline">Sobre mim</a>
+            <p class="mt-2 text-gray-600 dark:text-gray-300">
+            Brasileiro e paulista, sou profissional do TI com diversas skills pertinentes ao
+desenvolvimento do setor de tecnologia e negócios de uma organização.
+Três anos participando de implementação de softwares e ajudando em
+possíveis soluções em infra. Realizando formação de Ciências Econômicas
+pela Fundação Escola de Comércio Álvares Penteado e formado em
+tecnologia pelo Instituto Federal do Amazonas. Iniciante em React.Js e no
+universo front-end, estou descobrindo cada vez mais minha aptidão para a
+área. Possuo conhecimento na realização da estrutura de arquivos como
+repositórios deb em Apache e estruturação com shellscript. Saber avançado
+em SQL, com triggers, procedures e joins pertinentes com certa experiência
+em transações para o ERP. Trabalhando numa importadora e
+comercializadora de aço inoxidável, obtive experiência entre diversos
+setores da tecnologia e sua integração além de obter contato com diversos
+tipos de pessoas e gêneros.
+
+
+            </p>
+        </div>
+        
+        <div class="flex items-center justify-between mt-4">
+            
+
+            <div class="flex items-center">
+                <img class="hidden object-cover w-10 h-10 mx-4 rounded-full sm:block" src={euae} alt="avatar"></img>
+                <a class="font-bold text-gray-700  dark:text-gray-200">Maurício Bueno</a>
             </div>
-          </div>
-        </footer>
-      </section>
-
-
-
-
-
-
-
+        </div>
     </div>
+
+
+
+  </div>
+</section>
+
+
+
+    </React.Fragment>
 
 
 

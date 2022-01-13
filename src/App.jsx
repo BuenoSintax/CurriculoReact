@@ -1,3 +1,6 @@
+import React, { useEffect } from 'react'
+
+
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import Experiencia from './components/Pages/Experiencia';
 import Formacao from './components/Pages/Formacao';
@@ -9,9 +12,11 @@ import Home from './components/Pages/Home';
 import Footer from './components/Footer';
 
 function App() {
+  
   return (
     
-      <div className="App" class="bg-slate-300">
+
+      <div className="App" class="bg-slate-300 w-100 h-100">
 
         <Router>
           <Navbar />

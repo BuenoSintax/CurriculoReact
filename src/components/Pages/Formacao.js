@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ConteudoInicial from '../ConteudoInicial';
-import Timeline from '../Timeline';
+import Timeline from '../Timeline/Timeline';
 
 function Formacao(){
+  useEffect(() => {
+      
+    document.title = "Maurício 🔥 | Formação";
+  });
+
     return(
 
         <React.Fragment>
@@ -21,10 +26,10 @@ function Formacao(){
       </div>    
       
 
-      {/* Começo parte direita */}
+     
 <Timeline/>
       
-{/* Fim parte direita */}
+
 
       
     </div>

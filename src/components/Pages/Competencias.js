@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import ConteudoCompet from '../CompetenciasConteudo/ConteudoCompet';
 import ConteudoInicial from '../ConteudoInicial';
 function Competencias(){
+    useEffect(() => {
+      
+        document.title = "Maurício 🔥 | Competências";
+      });
     return(
 
         <React.Fragment>
         <ConteudoInicial titulo="Competências" descricao="Aqui são minhas competências"/>
-        <h2>Hello sou a pagina competências</h2>
+        <ConteudoCompet/>
         </React.Fragment>
     );
 

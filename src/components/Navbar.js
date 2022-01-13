@@ -10,7 +10,7 @@ return(
 
 
 
-<nav class="bg-gray-200 shadow shadow-gray-300 w-100 px-8 md:px-auto">
+<nav class="bg-gray-300 shadow shadow-gray-300 w-100 px-8 md:px-auto">
 
 	<div class="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
 		{/* <!-- Logo --> */}
@@ -19,7 +19,7 @@ return(
 			</div>
 		
 			<div class="text-gray-900  order-3 w-full md:w-auto md:order-2">
-				<ul class="flex xl:text-lg  font-semibold justify-between">
+				<ul class="2xl:flex xl:flex lg:flex md:flex xl:text-lg font-semibold justify-between">
 					<li class="md:px-4 sm:px-1 md:py-2 hover:text-black"> <Link to="/experiencia">Experiência</Link> </li>
 					<li class="md:px-4 md:py-2 hover:text-black"> <Link to="/formacao">Formação</Link> </li>
 					<li class="md:px-4 md:py-2 text-indigo-700 hover:text-black"><Link to="/"> Mauricio </Link> </li>

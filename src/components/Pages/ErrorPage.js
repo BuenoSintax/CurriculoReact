@@ -1,16 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
 import ImgErro from '../assets/Error-404.png'
 function ErroPage(){
+	useEffect(() => {
+		
+		document.title = "Maurício | Error 404";
+	  });
+
+
     return(
        
 <div class='flex items-center justify-center min-h-screen'>
  <section class="text-center mx-6 lg:w-2/3">
 	<img class="m-auto w-28 lg:w-48 rounded-full " src={ImgErro} />
-	<h1 class="mt-2 mb-1 text-2xl lg:text-3xl">Oooops! Parece que a página não foi encontrada. </h1>
+	<h1 class="mt-2 mb-1 text-2xl lg:text-3xl">Oooops, server Error 404! Parece que a página não foi encontrada. </h1>
 	<div>
 		<p class="text-2xl">
 			
-            Contate o Maurício, vai! Ou acesse o menu principal acima. 😊
+            Mas você pode contatar o Maurício! Ou acesse o menu principal acima. 😊
             <br></br>
 			Meu <a class="text-indigo-500 font-semibold hover:underline hover:decoration-wavy" target="_blank" href="https://twitter.com/ichmauricio"> Twitter</a> para informações.
 		</p>
